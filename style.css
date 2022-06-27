@@ -2,4 +2,93 @@ body {
   background-color: #1f2937;
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 550px;
+  max-height: 550px;
+  width: 100%;
+
+  /* align-items: flex-start; */
+}
+
+/* .marginDiv{
+    margin-right: 52px;
+} */
+
+h1 {
+  color: white;
+  margin-top: 115px;
+  margin-bottom: 10px;
+  margin-left: 52px;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.025em;
+}
+
+.rPassword {
+  color: #10b981;
+}
+
+p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #d5d4d8;
+  margin-left: 52px;
+  margin-top: 0;
+  margin-bottom: 51px;
+}
+
+#generatePasswords {
+  color: #ffffff;
+  background: #10b981;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  border: none;
+  width: 191px;
+  height: 42px;
+  margin-left: 52px;
+}
+
+.pButtons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 118px;
+}
+#password1 {
+  margin-left: 50px;
+  margin-right: 12px;
+}
+
+#password2 {
+  margin-right: 50px;
+  margin-left: 12px;
+}
+
+#password1,
+#password2 {
+  width: 211px;
+  height: 39px;
+  background: #273549;
+  border-radius: 6px;
+  border: none;
+}
+
+.line {
+  width: 446px;
+  height: 0px;
+  border: 1px solid #2f3e53;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 52px;
+  display: flex;
+  justify-content: center;
 }

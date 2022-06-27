@@ -6,15 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password Generator</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Generate a random password</h1>
-    <p>Never use an insecure password again.</p>
+    <div class="marginDiv">
+      <h1 class="generateA">
+        Generate a <br />
+        <span class="rPassword"> random password</span>
+      </h1>
+      <p>Never use an insecure password again.</p>
+    </div>
 
-    <button>Generate Passwords</button> <br />
+    <button id="generatePasswords">Generate Passwords</button> <br />
 
-    <button id="password1"></button>
-    <button id="password2"></button>
+    <div class="line"></div>
+
+    <div class="pButtons">
+      <button id="password1"></button>
+      <button id="password2"></button>
+    </div>
 
     <script src="index.jsx"></script>
   </body>
