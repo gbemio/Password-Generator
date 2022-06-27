@@ -1,12 +1,22 @@
 body {
-  background-color: #1f2937;
+  /* background-repeat: no-repeat;
+  background-size: cover;
+
+  width: 100%; */
+
+  /* align-items: flex-start; */
+}
+
+.backgroundDiv {
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #1f2937;
   max-width: 550px;
   max-height: 550px;
   width: 100%;
-
-  /* align-items: flex-start; */
+  height: 100%;
+  padding-top: 115px;
+  padding-bottom: 115px;
 }
 
 /* .marginDiv{
@@ -15,7 +25,7 @@ body {
 
 h1 {
   color: white;
-  margin-top: 115px;
+  /* margin-top: 115px; */
   margin-bottom: 10px;
   margin-left: 52px;
   font-family: "Karla";
@@ -61,7 +71,7 @@ p {
 .pButtons {
   display: flex;
   justify-content: center;
-  margin-bottom: 118px;
+  /* margin-bottom: 118px; */
 }
 #password1 {
   margin-left: 50px;
@@ -80,6 +90,7 @@ p {
   background: #273549;
   border-radius: 6px;
   border: none;
+  color: #10b981;
 }
 
 .line {
